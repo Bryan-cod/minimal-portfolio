@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
+import resume from "../assets/Resume.pdf";
+
+
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,21 +16,21 @@ function Nav() {
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
                   <a
-                    href="#"
+                    href={resume}
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Resume
                   </a>
 
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/in/bryan-flores-561a1a241/"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     LinkedIn
                   </a>
 
                   <a
-                    href="#"
+                    href="https://github.com/Bryan-cod"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Github
@@ -96,21 +99,21 @@ function Nav() {
             <div className="md:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                   <a
-                    href="#"
+                    href={resume}
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Resume
                   </a>
 
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/in/bryan-flores-561a1a241/"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     LinkedIn
                   </a>
 
                   <a
-                    href="#"
+                    href="https://github.com/Bryan-cod"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Github
