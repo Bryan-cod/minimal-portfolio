@@ -9,7 +9,7 @@ function Nav() {
   return (
     <div>
       <nav className="bg-gray-800">
-        <div className="max-w-4x1 mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 max-w-4x1 mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
 
