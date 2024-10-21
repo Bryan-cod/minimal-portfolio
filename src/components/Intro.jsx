@@ -5,23 +5,27 @@ import { Transition } from "@headlessui/react";
 function Intro() {
     const [isOpen, setIsOpen] = useState(false);
     return (
-        <div>
-            <div class="grid grid-cols-5 gap-4">
-                <div className="col-start-3 max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-                    <div className="text-3xl justify-center font-bold text-gray-900">About Me</div>
-                </div>
-            </div>
-            <div class="grid grid-cols-9 gap-4">
-                <div className="col-span-4 max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
-                    {/* <!-- Replace with your content --> */}
-                    <div className="px-4 py-6 sm:px-0">
-                        <div className="border-4 border-dashed border-gray-200 rounded-lg h-96">This is a example text that has no other meaning than to see what the output is and how it looks.</div>
+        <div className="main-content">
+            <div className="general-info-container">
+                <h1 className="title">General Information</h1>
+                <div className="info-grid">
+                    <div className="info-label">Name</div>
+                    <div className="info-value">Bryan Flores</div>
+
+                    <div className="info-label">Email</div>
+                    <div className="info-value">
+                        <a href="mailto:bflores09@berkeley.edu">bflores09@berkeley.edu</a>
                     </div>
-                    {/* <!-- /End replace --> */}
-                </div>
-                <div className="col-start-6 col-span-4 max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
-                    <div className="px-4 py-6 sm:px-0">
-                        <div className="border-4 border-dashed border-gray-200 rounded-lg h-96">This is a example text that has no other meaning than to see what the output is and how it looks.</div>
+
+                    <div className="info-label">Programming Languages</div>
+                    <div className="info-value">
+                        Python, Java, C, SQL/PostgreSQL, React, HTML, CSS, JavaScript, C, Golang, Ruby, Typescript
+                    </div>
+
+                    <div className="info-label">Tools</div>
+                    <div className="info-value">
+                    Git, Matplotlib, Bootstrap, Seaborn, Numpy, SIMD, Pandas, RISC-V, Ruby on Rails, React, 
+                    jQuery, Node.js, Express.js, MongoDB, Postgres, Heroku, Figma, AWS CDK, AWS SDK, S3, AWS Lambda
                     </div>
                 </div>
             </div>

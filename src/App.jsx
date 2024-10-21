@@ -4,21 +4,25 @@ import { useCallback } from "react";
 import Navbar from "./components/Navbar.jsx"
 import Intro from "./components/Intro.jsx"
 import Education from "./components/Education.jsx"
-import Projects from "./components/Projects.jsx"
-import tsBackground from './components/TsParticlesBackground.jsx';
+import Experience from "./components/Experience.jsx"
+import Projects from './components/Projects';
+import TsBackground from './components/TsParticlesBackground.jsx';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      <div class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+      <div style={{zIndex:2}} class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
         <Navbar />
       </div>
 
 
       <div>
-        <tsBackground />
+        <TsBackground />
+      </div>
+
+      <div>
         <Intro />
       </div>
 
@@ -27,11 +31,11 @@ function App() {
       </div>
 
       <div>
-        <Projects />
+        <Experience />
       </div>
 
       <div>
-        <Intro />
+        <Projects />
       </div>
     </div>
   )

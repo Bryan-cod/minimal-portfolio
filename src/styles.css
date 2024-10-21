@@ -1,0 +1,133 @@
+/* General information card */
+.general-info-container {
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 50%;  /* Adjust to fit content */
+  height: 50%;
+}
+
+/* Title styling */
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Grid for two-column layout */
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 4fr;  /* Left: 1 fraction, Right: 2 fractions */
+  gap: 10px 10px;  /* Row and column gaps */
+  align-items: start;  /* Align text at the top */
+}
+
+/* Label column styling */
+.info-label {
+  font-weight: bold;
+  color: #333;
+  text-align: left;
+}
+
+/* Value column styling */
+.info-value {
+  color: #555;
+  text-align: left;
+}
+
+.info-value a {
+  color: #1d4ed8;  /* Link color */
+  text-decoration: none;
+}
+
+.info-value a:hover {
+  text-decoration: underline;
+}
+
+/* Main content wrapper */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: grey;
+}
+
+/* Education container */
+.education-container {
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 50%;  /* Adjust to fit content */
+  height: 50%;
+}
+
+/* Title */
+.education-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Each education block */
+.education-block {
+  display: grid;
+  grid-template-columns: 1fr 3fr;  /* Two columns, one for date and one for details */
+  gap: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;  /* Separator between blocks */
+  padding-bottom: 10px;
+}
+
+/* Year/date column */
+.education-year {
+  font-size: 16px;
+  font-weight: bold;
+  color: #1d4ed8;
+  display: flex;
+  align-items: flex-start;
+}
+
+/* Education details column */
+.education-details {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Headings in education details */
+.education-details h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* University or school name */
+.education-details p {
+  margin: 0;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+/* List of additional information */
+.education-details ul {
+  list-style-type: circle;
+  padding-left: 20px;
+}
+
+.education-details ul li {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+/* Icon styling (assuming you use Font Awesome or similar) */
+.fa-university {
+  margin-right: 8px;
+}
+

@@ -1,31 +1,37 @@
 import React, { useState } from "react";
-import { Transition } from "@headlessui/react";
 
 function Projects() {
     const [isOpen, setIsOpen] = useState(false);
     return (
-        <div>
-            <div class="grid grid-cols-5 gap-4">
-                <div className="col-start-3 max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-                    <div className="text-3xl justify-center font-bold text-gray-900">Projects</div>
-                </div>
-            </div>
-            <div class="grid grid-cols-9 gap-4">
-                <div className="col-span-4 max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
-                    {/* <!-- Replace with your content --> */}
-                    <div className="px-4 py-6 sm:px-0">
-                        <div className="border-4 border-dashed border-gray-200 rounded-lg h-96">This is a example text that has no other meaning than to see what the output is and how it looks.</div>
+        <div className="main-content">
+            <div className="education-container">
+                <h1 className="education-title">Projects</h1>
+
+                <div className="education-block">
+                    <div className="education-year">Spring 2023</div>
+                    <div className="education-details">
+                        <h3>Secure File Sharing System</h3>
+                        <p><i className="fa fa-university" /></p>
+                        <ul>
+                            <li>Designed and implemented a robust and secure file-sharing client application in Golang, ensuring data privacy and preventing tampering by utilizing cryptographic primitives.</li>
+                            <li>The client provided users with features such as authentication, file saving, loading, overwriting, appending, sharing, and revoking access.</li>    
+                        </ul>
                     </div>
-                    {/* <!-- /End replace --> */}
                 </div>
-                <div className="col-start-6 col-span-4 max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
-                    <div className="px-4 py-6 sm:px-0">
-                        <div className="border-4 border-dashed border-gray-200 rounded-lg h-96">This is a example text that has no other meaning than to see what the output is and how it looks.</div>
+
+                <div className="education-block">
+                    <div className="education-year">Fall 2021</div>
+                    <div className="education-details">
+                        <h3>Version Control System</h3>
+                        <p><i className="fa fa-university" /></p>
+                        <ul>
+                            <li>Designed and created a version control system from scratch in Java mimicking some of the basic features of the popular system Git.</li>
+                            <li>Implemented features such as init, add, commit, rm, log, find, status, checkout, branch, merge, and much more, honing my skills in creating user-friendly software tools and managing intricate data structures.</li>    
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-
     );
 }
 
