@@ -20,6 +20,30 @@ function Projects() {
                 </div>
 
                 <div className="education-block">
+                    <div className="education-year">Fall 2022</div>
+                    <div className="education-details">
+                        <h3>Representative Finder</h3>
+                        <p><i className="fa fa-university" /></p>
+                        <ul>
+                            <li>Created a full-stack web app using Google’s Civic API to find representatives of any given location along with news articles of given topic through Google’s News API.</li>
+                            <li>Implemented using Ruby/Ruby on Rails, HTML, CSS, Bootstrap, Javascript with Postgres as storage via Heroku </li>    
+                        </ul>
+                    </div>
+                </div>
+
+                <div className="education-block">
+                    <div className="education-year">Summer 2022</div>
+                    <div className="education-details">
+                        <h3>Mini Numpy</h3>
+                        <p><i className="fa fa-university" /></p>
+                        <ul>
+                            <li>Built a simple version of the Numpy library in C with addition, multiplication, and power functions</li>
+                            <li>Optimized using SIMD, OpenMP, and methods of cache blocking, loop unrolling, and repeated squaring achieving speeds of up to 50x faster than a naive implementation via data and thread-level parallelism</li>    
+                        </ul>
+                    </div>
+                </div>
+
+                <div className="education-block">
                     <div className="education-year">Fall 2021</div>
                     <div className="education-details">
                         <h3>Version Control System</h3>

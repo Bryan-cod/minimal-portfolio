@@ -25,7 +25,7 @@ function Intro() {
                     <div className="info-label">Tools</div>
                     <div className="info-value">
                     Git, Matplotlib, Bootstrap, Seaborn, Numpy, SIMD, Pandas, RISC-V, Ruby on Rails, React, 
-                    jQuery, Node.js, Express.js, MongoDB, Postgres, Heroku, Figma, AWS CDK, AWS SDK, S3, AWS Lambda
+                    jQuery, Node.js, Express.js, MongoDB, Postgres, Heroku, Figma, AWS CDK, AWS SDK, S3, AWS Lambda, AWS Bedrock
                     </div>
                 </div>
             </div>
